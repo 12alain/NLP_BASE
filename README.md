@@ -1,17 +1,16 @@
 # Introduction
 
-## 1. Text Preprocessing
-### 1.1. Removal of Punctuation
-### 1.2. Lowercasing
-### 1.3. Removal of Stop Words
-### 1.4. Tokenization
-### 1.5. Stemming and Lemmatization
+## 1. Pré-traitement de texte (Text preprocessing)
+### 1.1. Tokenization
+### 1.2. Suppression de bruit
 
-## 2. Text Normalization
-### 2.1. Spelling Correction
-### 2.2. Normalization of Contractions
-### 2.3. Normalization of Numbers
-### 2.4. Normalization of Abbreviations
+
+
+## 2. Normalisation de texte
+### 2.1. Introduction
+### 2.2. Stemming
+### 2.3. Lemmatization
+
 
 ## 3. Word Embedding
 ### 3.1. One-hot Encoding
