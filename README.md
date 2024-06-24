@@ -58,5 +58,43 @@ sentence: "I am onlone "
 tokens: ["am alone"]
 ```
 
+## 2. [Text Normalization](#text-normalization)
 
+Text normalization is the process of transforming text into
+a canonical (standard) form.
 
+We have two main methods of text normalization:
+**Stemming** : is a rules-based process that involves
+remove suffixes (“ing”, “ly”, “es”, “s”, etc.) from a word.
+- Porter Stemmer
+- Snowball Stemmer
+- Lancaster Stemmer 
+
+**Lemmatization**: is for its part, is an organized procedure, step
+step by step, allowing you to obtain the root of the word.
+- WordNetLemmatizer
+
+## 3. [Word Embedding](#word-embedding)
+
+The different types of Word Embeddings can be classified into two main categories.
+
+**Frequency-based Word Embeddings**
+- Count Vector
+- BOW
+- TF-IDF (Term Frequency-Inverse Document Frequency)
+**Prediction-based Word Embeddings**
+- CBOW (Continuous Bag of words)
+- Skip-Gram (Word2Vec)
+- GloVe (Global Vectors for Word Representation)
+
+### [3.5. Contextual Embeddings (BERT, GPT)](#35-contextual-embeddings-bert-gpt)
+
+Contextual embeddings such as BERT and GPT represent a significant advancement in natural language processing by capturing the meaning of words based on their context.
+
+**BERT (Bidirectional Encoder Representations from Transformers)**
+
+BERT utilizes a bidirectional Transformer model pre-trained on large textual corpora. It generates embeddings that capture semantic nuances by considering words both to the left and right of each word in a sentence.
+
+**GPT (Generative Pre-trained Transformer)**
+
+Similar to BERT but typically used for text generation, GPT is a pre-trained Transformer model that produces contextual embeddings by predicting the next word in a sequence of words.
